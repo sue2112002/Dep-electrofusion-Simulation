@@ -32,16 +32,9 @@ data/         put input_cells_dataset.csv here
 | exp07 | Spacing 40 µm, lower base field, +100 % at pairs 8 and 9 so only those trap |
 | exp08 | Larger cells (synthetic dataset: PLT 1.5–3 µm, RBC 3–7.5 µm) |
 
-**Results table** (fill in after running each script): 
-
-| Variant | Trapping % | Pairing % | Fusion % | PLT–RBC share |
-|---------|-----------|-----------|----------|---------------|
-| exp01 | | | | |
-| … | | | | |
-
 ## Running
 1. MATLAB (the scripts use `readtable` and `xline`, so a recent release).
-2. Put `input_cells_dataset.csv` in `data/` (columns: `ID, Type, x, y, radius, sigma_cyt, epsilon_cyt`; `Type` is `PLT` or `RBC`) and run `addpath('data')`. [State whether the dataset is synthetic or measured.]
+2. Put `input_cells_dataset.csv` in `data/` (columns: `ID, Type, x, y, radius, sigma_cyt, epsilon_cyt`; `Type` is `PLT` or `RBC`) and run `addpath('data')`. The cell dataset is synthetic (generated for this project), not measured data.
 3. Run a script from the `experiments/` or `src/` folder.
 
 ## Assumptions and limitations
