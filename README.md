@@ -2,7 +2,7 @@
 
 My part of a graduation project: a time-stepped MATLAB simulation of a microfluidic device that **traps** cells with dielectrophoresis (DEP), **pairs** them, and **fuses** pairs with a DC pulse. I used it to test design variants (electrode spacing, where the field is strengthened, cell sizes) before building anything.
 
-> Project name: [add your project name]  ·  Supervisor / institution: [add]
+> Project name: BioNexus an LOC Device for Rapid Pathogen Detection Integrating AI and Electrochemical Detection  ·  Supervisor: Dr.Sameh Sherif
 
 ## What it models
 1. **DEP trapping.** Force on each cell `F = 2π·ε_m·r³·Re[CM]·∇(E²)` with a Stokes-drag, time-stepped motion (dt = 10 µs, 0.1 s total). The field along the channel is a cosine profile for interdigitated electrodes, optionally strengthened at chosen electrode pairs.
